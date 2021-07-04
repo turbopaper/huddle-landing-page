@@ -1,0 +1,58 @@
+body {
+--Violet: hsl(257, 40%, 49%);
+--Soft: hsl(300, 69%, 71%);
+background-color: var(--Violet);
+}
+
+.background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+.ill {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+
+}
+.text {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    width: 32%;
+    height: auto;
+}
+.text button {
+font-family: 'Poppins', sans-serif;
+text-decoration: none;
+color: wheat;
+height: 50px;
+width: 200px;
+border-radius: 75px;
+border-color: var(--Soft);
+background-color: var(--Soft);
+}
+
+
+.socials {
+    position: absolute;
+    bottom: 0%;
+    left: 80%;
+
+}
+h1 {
+
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
